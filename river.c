@@ -61,7 +61,7 @@ int river(int n[],int m)
             }
             else
             {
-                return temp2 + river(n, m - 2);
+                return temp2 + n[1];
             }
  	}
 	
